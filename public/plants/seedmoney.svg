@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
+  <!-- 새싹 (씨앗머니) -->
+  <rect x="7" y="5" width="1" height="3" fill="#2f6e2b"/>
+  <rect x="5" y="4" width="2" height="2" fill="#5fa854"/>
+  <rect x="8" y="3" width="2" height="2" fill="#5fa854"/>
+  <!-- 금화 -->
+  <rect x="4" y="8" width="8" height="6" fill="#f4c430"/>
+  <rect x="4" y="8" width="8" height="1" fill="#ffe680"/>
+  <rect x="4" y="13" width="8" height="1" fill="#c99a13"/>
+  <rect x="3" y="9" width="1" height="4" fill="#c99a13"/>
+  <rect x="12" y="9" width="1" height="4" fill="#c99a13"/>
+  <!-- $ 기호 -->
+  <rect x="7" y="8" width="1" height="6" fill="#9c7a10"/>
+  <rect x="6" y="9" width="3" height="1" fill="#9c7a10"/>
+  <rect x="6" y="11" width="3" height="1" fill="#9c7a10"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
+  <!-- 스팸 본체 -->
+  <rect x="2" y="4" width="12" height="9" fill="#d98c79"/>
+  <!-- 구워진 윗면 -->
+  <rect x="2" y="4" width="12" height="2" fill="#c9764f"/>
+  <!-- 오른쪽 음영 -->
+  <rect x="12" y="6" width="2" height="6" fill="#bf7259"/>
+  <!-- 그릴 자국 -->
+  <rect x="4" y="4" width="1" height="2" fill="#8a4a2a"/>
+  <rect x="7" y="4" width="1" height="2" fill="#8a4a2a"/>
+  <rect x="10" y="4" width="1" height="2" fill="#8a4a2a"/>
+  <!-- 하이라이트 -->
+  <rect x="3" y="7" width="8" height="1" fill="#edb6a6"/>
+  <!-- 아래 시어링 -->
+  <rect x="2" y="12" width="12" height="1" fill="#a85636"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
+  <!-- 플라스크 목 -->
+  <rect x="6" y="2" width="4" height="1" fill="#9fcad2"/>
+  <rect x="7" y="2" width="2" height="3" fill="#bfe0e6"/>
+  <!-- 플라스크 몸통 (삼각) -->
+  <rect x="6" y="5" width="4" height="1" fill="#bfe0e6"/>
+  <rect x="5" y="6" width="6" height="1" fill="#bfe0e6"/>
+  <rect x="4" y="7" width="8" height="1" fill="#bfe0e6"/>
+  <rect x="3" y="8" width="10" height="5" fill="#bfe0e6"/>
+  <rect x="3" y="13" width="10" height="1" fill="#9fcad2"/>
+  <!-- 초록 액체 -->
+  <rect x="4" y="9" width="8" height="1" fill="#5fa854"/>
+  <rect x="4" y="10" width="8" height="3" fill="#4f9e2e"/>
+  <!-- 거품 -->
+  <rect x="6" y="8" width="1" height="1" fill="#bfe0a0"/>
+  <rect x="9" y="9" width="1" height="1" fill="#caf0a0"/>
+  <rect x="8" y="3" width="1" height="1" fill="#caf0a0"/>
+</svg>

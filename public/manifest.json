@@ -1,0 +1,17 @@
+{
+  "name": "농장 물주기 표",
+  "short_name": "물주기",
+  "description": "사진으로 물주기 기록을 자동 정리하는 식물 도트 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ec",
+  "theme_color": "#3e8a37",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

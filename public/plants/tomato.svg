@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
+  <!-- 꼭지 -->
+  <rect x="7" y="1" width="2" height="2" fill="#4f9e2e"/>
+  <rect x="6" y="2" width="4" height="1" fill="#3e8a37"/>
+  <rect x="5" y="3" width="2" height="1" fill="#2f6e2b"/>
+  <rect x="9" y="3" width="2" height="1" fill="#2f6e2b"/>
+  <!-- 토마토 본체 -->
+  <rect x="4" y="4" width="8" height="2" fill="#d83a3a"/>
+  <rect x="3" y="5" width="10" height="6" fill="#d83a3a"/>
+  <rect x="4" y="11" width="8" height="2" fill="#d83a3a"/>
+  <rect x="5" y="13" width="6" height="1" fill="#b52a2a"/>
+  <!-- 오른쪽 음영 -->
+  <rect x="10" y="6" width="3" height="5" fill="#b52a2a"/>
+  <!-- 하이라이트 -->
+  <rect x="5" y="6" width="2" height="2" fill="#f0a0a0"/>
+</svg>

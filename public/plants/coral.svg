@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
+  <!-- 줄기 -->
+  <rect x="7" y="7" width="2" height="7" fill="#6b4f2a"/>
+  <!-- 잎 (위 캐노피) -->
+  <rect x="4" y="2" width="8" height="1" fill="#4f9e2e"/>
+  <rect x="3" y="3" width="10" height="4" fill="#3e8a37"/>
+  <rect x="2" y="4" width="2" height="2" fill="#2f6e2b"/>
+  <rect x="12" y="4" width="2" height="2" fill="#2f6e2b"/>
+  <rect x="7" y="3" width="1" height="4" fill="#2f6e2b"/>
+  <!-- 빨간 산호빛 열매 -->
+  <rect x="4" y="8" width="2" height="2" fill="#d83a3a"/>
+  <rect x="10" y="8" width="2" height="2" fill="#d83a3a"/>
+  <rect x="7" y="10" width="2" height="2" fill="#e85555"/>
+  <rect x="4" y="8" width="1" height="1" fill="#f08080"/>
+  <rect x="10" y="8" width="1" height="1" fill="#f08080"/>
+</svg>
