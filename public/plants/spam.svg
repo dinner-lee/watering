@@ -1,16 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
-  <!-- 스팸 본체 -->
-  <rect x="2" y="4" width="12" height="9" fill="#d98c79"/>
-  <!-- 구워진 윗면 -->
-  <rect x="2" y="4" width="12" height="2" fill="#c9764f"/>
-  <!-- 오른쪽 음영 -->
-  <rect x="12" y="6" width="2" height="6" fill="#bf7259"/>
-  <!-- 그릴 자국 -->
-  <rect x="4" y="4" width="1" height="2" fill="#8a4a2a"/>
-  <rect x="7" y="4" width="1" height="2" fill="#8a4a2a"/>
-  <rect x="10" y="4" width="1" height="2" fill="#8a4a2a"/>
-  <!-- 하이라이트 -->
-  <rect x="3" y="7" width="8" height="1" fill="#edb6a6"/>
-  <!-- 아래 시어링 -->
-  <rect x="2" y="12" width="12" height="1" fill="#a85636"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges" width="256" height="256">
+<rect x="5" y="22" width="22" height="4" fill="#cfcabb"/>
+<rect x="6" y="21" width="20" height="4" fill="#f6f4ea"/>
+<rect x="8" y="20" width="16" height="1" fill="#f6f4ea"/>
+<rect x="7" y="25" width="18" height="1" fill="#cfcabb"/>
+<rect x="20" y="22" width="2" height="2" fill="#4f9e2e"/>
+<rect x="20" y="22" width="1" height="1" fill="#3e8a37"/>
+<rect x="9" y="23" width="2" height="2" fill="#4f9e2e"/>
+<rect x="10" y="24" width="1" height="1" fill="#3e8a37"/>
+<rect x="23" y="20" width="1" height="1" fill="#4f9e2e"/>
+<rect x="11" y="12" width="13" height="2" fill="#a9744f"/>
+<rect x="10" y="14" width="13" height="1" fill="#a9744f"/>
+<rect x="12" y="11" width="9" height="1" fill="#a9744f"/>
+<rect x="13" y="11" width="6" height="1" fill="#c79a6d"/>
+<rect x="11" y="13" width="5" height="1" fill="#c79a6d"/>
+<rect x="18" y="13" width="4" height="1" fill="#c79a6d"/>
+<rect x="10" y="15" width="11" height="6" fill="#8a5a3a"/>
+<rect x="11" y="16" width="3" height="1" fill="#a9744f"/>
+<rect x="10" y="20" width="11" height="1" fill="#5e3c18"/>
+<rect x="21" y="14" width="3" height="7" fill="#5e3c18"/>
+<rect x="21" y="15" width="3" height="1" fill="#6e4824"/>
+<rect x="10" y="14" width="1" height="7" fill="#5e3c18"/>
 </svg>

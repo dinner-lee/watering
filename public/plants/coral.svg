@@ -1,16 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
-  <!-- 줄기 -->
-  <rect x="7" y="7" width="2" height="7" fill="#6b4f2a"/>
-  <!-- 잎 (위 캐노피) -->
-  <rect x="4" y="2" width="8" height="1" fill="#4f9e2e"/>
-  <rect x="3" y="3" width="10" height="4" fill="#3e8a37"/>
-  <rect x="2" y="4" width="2" height="2" fill="#2f6e2b"/>
-  <rect x="12" y="4" width="2" height="2" fill="#2f6e2b"/>
-  <rect x="7" y="3" width="1" height="4" fill="#2f6e2b"/>
-  <!-- 빨간 산호빛 열매 -->
-  <rect x="4" y="8" width="2" height="2" fill="#d83a3a"/>
-  <rect x="10" y="8" width="2" height="2" fill="#d83a3a"/>
-  <rect x="7" y="10" width="2" height="2" fill="#e85555"/>
-  <rect x="4" y="8" width="1" height="1" fill="#f08080"/>
-  <rect x="10" y="8" width="1" height="1" fill="#f08080"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges" width="256" height="256">
+<!-- Sand -->
+<rect x="2" y="28" width="28" height="4" fill="#e6c48f"/>
+<rect x="2" y="28" width="28" height="1" fill="#c9a96a"/>
+<rect x="6" y="29" width="2" height="1" fill="#c9a96a"/>
+<rect x="20" y="30" width="3" height="1" fill="#c9a96a"/>
+
+<!-- Red/orange coral (left) -->
+<rect x="9" y="20" width="2" height="8" fill="#e0432f"/>
+<rect x="7" y="18" width="2" height="6" fill="#e0432f"/>
+<rect x="11" y="17" width="2" height="6" fill="#e0432f"/>
+<rect x="6" y="14" width="2" height="5" fill="#e0432f"/>
+<rect x="13" y="15" width="2" height="4" fill="#e0432f"/>
+<rect x="8" y="13" width="2" height="3" fill="#e0432f"/>
+<rect x="5" y="11" width="1" height="4" fill="#e0432f"/>
+<rect x="10" y="11" width="1" height="3" fill="#e0432f"/>
+<rect x="12" y="12" width="1" height="3" fill="#e0432f"/>
+<!-- highlights -->
+<rect x="9" y="20" width="1" height="8" fill="#ff7a5c"/>
+<rect x="6" y="14" width="1" height="4" fill="#ff7a5c"/>
+<rect x="5" y="11" width="1" height="3" fill="#ff7a5c"/>
+<rect x="11" y="17" width="1" height="3" fill="#ff7a5c"/>
+<rect x="10" y="11" width="1" height="2" fill="#ff7a5c"/>
+
+<!-- Pink coral (right) -->
+<rect x="21" y="21" width="2" height="7" fill="#e86fa6"/>
+<rect x="19" y="19" width="2" height="6" fill="#e86fa6"/>
+<rect x="23" y="18" width="2" height="6" fill="#e86fa6"/>
+<rect x="18" y="15" width="2" height="5" fill="#e86fa6"/>
+<rect x="25" y="16" width="2" height="4" fill="#e86fa6"/>
+<rect x="20" y="14" width="2" height="3" fill="#e86fa6"/>
+<rect x="17" y="13" width="1" height="3" fill="#e86fa6"/>
+<rect x="22" y="13" width="1" height="3" fill="#e86fa6"/>
+<rect x="25" y="14" width="1" height="3" fill="#e86fa6"/>
+<!-- highlights -->
+<rect x="21" y="21" width="1" height="7" fill="#f6a8cd"/>
+<rect x="19" y="19" width="1" height="4" fill="#f6a8cd"/>
+<rect x="18" y="15" width="1" height="4" fill="#f6a8cd"/>
+<rect x="23" y="18" width="1" height="3" fill="#f6a8cd"/>
+<rect x="20" y="14" width="1" height="2" fill="#f6a8cd"/>
+
+<!-- Blue fish (top-right) -->
+<rect x="24" y="6" width="4" height="3" fill="#4aa0c8"/>
+<rect x="25" y="5" width="2" height="1" fill="#4aa0c8"/>
+<rect x="25" y="9" width="2" height="1" fill="#4aa0c8"/>
+<rect x="24" y="7" width="1" height="1" fill="#bfe0e6"/>
+<rect x="25" y="6" width="2" height="1" fill="#bfe0e6"/>
+<rect x="28" y="6" width="1" height="3" fill="#4aa0c8"/>
+<rect x="29" y="5" width="1" height="1" fill="#4aa0c8"/>
+<rect x="29" y="9" width="1" height="1" fill="#4aa0c8"/>
+<rect x="27" y="7" width="1" height="1" fill="#1f1f1f"/>
 </svg>

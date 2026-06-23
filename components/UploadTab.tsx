@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PLANTS } from "@/lib/plants";
 import { matchPlant } from "@/lib/plants";
 import { matchPerson } from "@/lib/people";
@@ -17,7 +17,13 @@ function fileToDataUrl(file: File): Promise<string> {
   });
 }
 
-export default function UploadTab({ onSaved }: { onSaved: () => void }) {
+export default function UploadTab({
+  onSaved,
+  initialFile = null,
+}: {
+  onSaved: () => void;
+  initialFile?: File | null;
+}) {
   const [image, setImage] = useState<string | null>(null);
   const [parsing, setParsing] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -34,6 +40,12 @@ export default function UploadTab({ onSaved }: { onSaved: () => void }) {
     setDraft([]);
     setImage(await fileToDataUrl(file));
   }
+
+  // 우측 하단 버튼에서 바로 선택한 사진을 자동으로 불러온다
+  useEffect(() => {
+    if (initialFile) onPick(initialFile);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialFile]);
 
   async function analyze() {
     if (!image) return;
@@ -92,7 +104,13 @@ export default function UploadTab({ onSaved }: { onSaved: () => void }) {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "저장에 실패했습니다.");
-      setMessage(`✅ ${data.saved}건 저장 완료! '물주기' · '랭킹' 탭에 반영됐어요.`);
+      const skipped: number = data.skipped ?? 0;
+      if (data.saved > 0) {
+        const dup = skipped > 0 ? ` (이미 등록된 ${skipped}건은 건너뛰었어요)` : "";
+        setMessage(`✅ ${data.saved}건 저장 완료!${dup} '물주기' · '랭킹' 탭에 반영됐어요.`);
+      } else {
+        setMessage(`이미 모두 등록된 기록이에요. (${skipped}건 중복)`);
+      }
       setDraft([]);
       setImage(null);
       if (inputRef.current) inputRef.current.value = "";
@@ -107,7 +125,7 @@ export default function UploadTab({ onSaved }: { onSaved: () => void }) {
   return (
     <div className="space-y-4">
       <section className="pixel-box p-4">
-        <h2 className="mb-2 text-sm font-bold text-leaf-700">1. 물주기 표 사진 찍기</h2>
+        <h2 className="mb-2 text-sm font-bold text-leaf-700">1. 물주기 표 사진 (다시 찍기)</h2>
         <input
           ref={inputRef}
           type="file"

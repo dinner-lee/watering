@@ -34,30 +34,44 @@ export default function WateringTab({
           return (
             <div
               key={s.plant}
-              className="pixel-box flex flex-col items-center p-2 text-center"
+              className="pixel-box relative flex flex-col items-center p-2 text-center"
             >
+              {thirsty && (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src="/ui/drop.svg"
+                  alt="목말라요"
+                  title="목말라요"
+                  width={16}
+                  height={16}
+                  className="absolute right-1 top-1"
+                  style={{ imageRendering: "pixelated" }}
+                />
+              )}
               <PlantIcon plant={s.plant} size={40} />
               <div className="mt-1 flex items-center gap-1">
                 <span className="text-sm font-bold leading-tight text-leaf-800">{s.plant}</span>
               </div>
-              {thirsty && (
-                <span className="mt-0.5 border border-red-300 bg-red-50 px-1 text-[11px] text-red-600">
-                  목말라요 💦
-                </span>
-              )}
-              <div className="mt-1 w-full border-t border-leaf-100 pt-1 text-[12px] leading-snug text-leaf-600">
-                <div>
-                  마지막
-                  <br />
+              <div className="mt-1 grid w-full grid-cols-[auto_1fr] gap-x-2 gap-y-1 border-t-2 border-leaf-100 pt-1.5 text-[12px] leading-none text-leaf-600">
+                <span className="text-left text-leaf-500">마지막</span>
+                <span className="text-right">
                   <b className="text-leaf-800">
                     {s.lastWatered ? formatKor(s.lastWatered) : "—"}
                   </b>
                   {ago != null && <span className="text-leaf-400"> ({ago}일전)</span>}
-                </div>
-                <div className="mt-0.5">
-                  평균주기 <b className="text-leaf-800">{s.avgIntervalDays != null ? `${s.avgIntervalDays}일` : "—"}</b>
-                </div>
-                <div className="mt-0.5 text-leaf-400">총 {s.count}회</div>
+                </span>
+
+                <span className="text-left text-leaf-500">평균주기</span>
+                <span className="text-right">
+                  <b className="text-leaf-800">
+                    {s.avgIntervalDays != null ? `${s.avgIntervalDays}일` : "—"}
+                  </b>
+                </span>
+
+                <span className="text-left text-leaf-500">총</span>
+                <span className="text-right">
+                  <b className="text-leaf-800">{s.count}회</b>
+                </span>
               </div>
             </div>
           );

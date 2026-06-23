@@ -29,12 +29,12 @@ export const PLANT_EMOJI: Record<string, string> = {
 
 // 식물별 전용 픽셀(도트) 이미지. (없으면 위 이모지로 대체)
 export const PLANT_IMAGE: Record<string, string> = {
-  콩고기: "/plants/spam.svg", // 구워진 스팸
+  콩고기: "/plants/spam.svg", // 접시 위 구운 콩고기
   "야~!자타임": "/plants/palm.svg", // 야자나무
   폴짝이: "/plants/sprout.svg", // 새싹
-  시드머니: "/plants/seedmoney.svg", // 씨앗+금화
-  산호수: "/plants/coral.svg", // 산호빛 열매 나무
-  "C₃H₆N₆": "/plants/flask.svg", // 실험 플라스크
+  시드머니: "/plants/seedmoney.svg", // 금화 달린 돈나무
+  산호수: "/plants/coral.svg", // 산호 + 물고기
+  "C₃H₆N₆": "/plants/flask.svg", // 화학물질 시험관
   토마테: "/plants/tomato.svg", // 토마토
   포인이: "/plants/poinsettia.svg", // 포인세티아
   츄쨩: "/plants/lettuce.svg", // 상추

@@ -1,16 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" width="256" height="256">
-  <!-- 새싹 (씨앗머니) -->
-  <rect x="7" y="5" width="1" height="3" fill="#2f6e2b"/>
-  <rect x="5" y="4" width="2" height="2" fill="#5fa854"/>
-  <rect x="8" y="3" width="2" height="2" fill="#5fa854"/>
-  <!-- 금화 -->
-  <rect x="4" y="8" width="8" height="6" fill="#f4c430"/>
-  <rect x="4" y="8" width="8" height="1" fill="#ffe680"/>
-  <rect x="4" y="13" width="8" height="1" fill="#c99a13"/>
-  <rect x="3" y="9" width="1" height="4" fill="#c99a13"/>
-  <rect x="12" y="9" width="1" height="4" fill="#c99a13"/>
-  <!-- $ 기호 -->
-  <rect x="7" y="8" width="1" height="6" fill="#9c7a10"/>
-  <rect x="6" y="9" width="3" height="1" fill="#9c7a10"/>
-  <rect x="6" y="11" width="3" height="1" fill="#9c7a10"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges" width="256" height="256">
+<!-- Canopy base shadow/dark green, stepped rounded shape -->
+<rect x="12" y="2" width="8" height="1" fill="#2f6e2b"/>
+<rect x="10" y="3" width="12" height="1" fill="#2f6e2b"/>
+<rect x="8" y="4" width="16" height="1" fill="#2f6e2b"/>
+<rect x="7" y="5" width="18" height="1" fill="#2f6e2b"/>
+<rect x="6" y="6" width="20" height="1" fill="#2f6e2b"/>
+<rect x="6" y="7" width="20" height="1" fill="#2f6e2b"/>
+<rect x="6" y="8" width="20" height="1" fill="#2f6e2b"/>
+<rect x="6" y="9" width="20" height="1" fill="#2f6e2b"/>
+<rect x="7" y="10" width="18" height="1" fill="#2f6e2b"/>
+<rect x="8" y="11" width="16" height="1" fill="#2f6e2b"/>
+<rect x="10" y="12" width="12" height="1" fill="#2f6e2b"/>
+
+<!-- Mid green fill -->
+<rect x="12" y="3" width="8" height="1" fill="#4f9e2e"/>
+<rect x="9" y="4" width="14" height="1" fill="#4f9e2e"/>
+<rect x="8" y="5" width="16" height="1" fill="#4f9e2e"/>
+<rect x="7" y="6" width="18" height="1" fill="#4f9e2e"/>
+<rect x="7" y="7" width="18" height="1" fill="#4f9e2e"/>
+<rect x="7" y="8" width="18" height="1" fill="#4f9e2e"/>
+<rect x="8" y="9" width="16" height="1" fill="#4f9e2e"/>
+<rect x="9" y="10" width="14" height="1" fill="#4f9e2e"/>
+<rect x="11" y="11" width="10" height="1" fill="#4f9e2e"/>
+
+<!-- Light green highlights (upper-left) -->
+<rect x="12" y="3" width="4" height="1" fill="#6fb863"/>
+<rect x="10" y="4" width="4" height="1" fill="#6fb863"/>
+<rect x="9" y="5" width="3" height="1" fill="#6fb863"/>
+<rect x="8" y="6" width="3" height="1" fill="#6fb863"/>
+<rect x="14" y="6" width="2" height="1" fill="#6fb863"/>
+<rect x="11" y="8" width="2" height="1" fill="#6fb863"/>
+
+<!-- Gold coins scattered in canopy -->
+<rect x="10" y="6" width="2" height="2" fill="#f4c430"/>
+<rect x="10" y="6" width="1" height="1" fill="#ffe680"/>
+<rect x="11" y="7" width="1" height="1" fill="#c79a1a"/>
+<rect x="17" y="4" width="2" height="2" fill="#f4c430"/>
+<rect x="17" y="4" width="1" height="1" fill="#ffe680"/>
+<rect x="18" y="5" width="1" height="1" fill="#c79a1a"/>
+<rect x="20" y="7" width="2" height="2" fill="#f4c430"/>
+<rect x="20" y="7" width="1" height="1" fill="#ffe680"/>
+<rect x="21" y="8" width="1" height="1" fill="#c79a1a"/>
+<rect x="14" y="9" width="2" height="2" fill="#f4c430"/>
+<rect x="14" y="9" width="1" height="1" fill="#ffe680"/>
+<rect x="15" y="10" width="1" height="1" fill="#c79a1a"/>
+<rect x="13" y="3" width="1" height="1" fill="#f4c430"/>
+<rect x="22" y="5" width="1" height="1" fill="#f4c430"/>
+<rect x="17" y="10" width="1" height="1" fill="#f4c430"/>
+
+<!-- Trunk -->
+<rect x="15" y="13" width="2" height="5" fill="#6e4620"/>
+<rect x="15" y="13" width="1" height="5" fill="#8a5a2a"/>
+
+<!-- Pot rim -->
+<rect x="9" y="18" width="14" height="2" fill="#c79a6d"/>
+<!-- Pot body trapezoid -->
+<rect x="10" y="20" width="12" height="1" fill="#b5895f"/>
+<rect x="11" y="21" width="10" height="1" fill="#b5895f"/>
+<rect x="11" y="22" width="10" height="1" fill="#b5895f"/>
+<rect x="12" y="23" width="8" height="1" fill="#b5895f"/>
+<rect x="12" y="24" width="8" height="1" fill="#b5895f"/>
+<rect x="13" y="25" width="6" height="1" fill="#b5895f"/>
+
+<!-- pot shadow side (right) -->
+<rect x="20" y="20" width="2" height="1" fill="#8a5a3a"/>
+<rect x="19" y="21" width="2" height="2" fill="#8a5a3a"/>
+<rect x="18" y="23" width="2" height="2" fill="#8a5a3a"/>
+<rect x="17" y="25" width="2" height="1" fill="#8a5a3a"/>
+<rect x="21" y="18" width="2" height="2" fill="#8a5a3a"/>
+
+<!-- Sparkle lower-right -->
+<rect x="24" y="23" width="1" height="3" fill="#ffe680"/>
+<rect x="23" y="24" width="3" height="1" fill="#ffe680"/>
+<rect x="24" y="24" width="1" height="1" fill="#ffffff"/>
 </svg>

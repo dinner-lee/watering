@@ -46,6 +46,55 @@ body {
     transition-transform active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
 }
 
+/* 상단 바: 나무 표지판 판자 느낌 */
+.wood-bar {
+  background-color: #b5895f;
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(74, 53, 38, 0.22) 0,
+    rgba(74, 53, 38, 0.22) 1px,
+    transparent 1px,
+    transparent 7px
+  );
+  box-shadow: inset 0 2px 0 rgba(255, 232, 200, 0.3),
+    inset 0 -3px 0 rgba(74, 53, 38, 0.3);
+}
+
+/* 픽셀 도트 알약 테두리 */
+.dot-pill {
+  display: inline-block;
+  border: 2px dotted #4a3526;
+  border-radius: 9999px;
+  background-color: #f7f5ec;
+  color: #3a2417;
+  box-shadow: 2px 2px 0 0 rgba(74, 53, 38, 0.35);
+}
+
+/* 하단 탭: 나무 표지판 판자 느낌의 클릭 영역 */
+.wood-tab {
+  background-color: #a9744f;
+  /* 가로 결(나뭇결) */
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(74, 53, 38, 0.28) 0,
+    rgba(74, 53, 38, 0.28) 1px,
+    transparent 1px,
+    transparent 7px
+  );
+  color: #3a2417;
+  text-shadow: 0 1px 0 rgba(255, 240, 220, 0.35);
+  box-shadow: inset 0 2px 0 rgba(255, 232, 200, 0.35),
+    inset 0 -3px 0 rgba(74, 53, 38, 0.35);
+}
+
+/* 선택된 표지판: 밝게 도드라지고 눌린 느낌 */
+.wood-tab--active {
+  background-color: #c79a6d;
+  color: #1d3a1c;
+  box-shadow: inset 0 0 0 2px rgba(74, 53, 38, 0.55),
+    inset 3px 3px 0 rgba(74, 53, 38, 0.25);
+}
+
 /* 입력칸 */
 .pixel-input {
   @apply border-2 border-leaf-300 bg-white px-2 py-1 text-leaf-900 outline-none
