@@ -34,7 +34,9 @@ export default function WateringTab({
           return (
             <div
               key={s.plant}
-              className="pixel-box relative flex flex-col items-center p-2 text-center"
+              className={`pixel-box relative flex flex-col items-center p-2 text-center${
+                thirsty ? " !bg-sky-100" : ""
+              }`}
             >
               {thirsty && (
                 /* eslint-disable-next-line @next/next/no-img-element */
